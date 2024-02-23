@@ -1,11 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #C589E8;
+    color: #E3DAFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: larger;
 }
 
 form {
-    max-width: 600px;
-    margin: 0 auto;
+padding: 20px; ;
 }
 
 label {
@@ -29,16 +36,16 @@ input[type="checkbox"] {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #963D5A;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
+} 
 
 button:hover {
-    background-color: #45a049;
+    background-color: #5dbb84;
 }
 .checkbox-container {
     display: flex;
@@ -53,4 +60,10 @@ button:hover {
 
 .checkbox-container input {
     margin-left: 5px; /* Ajusta la distancia entre el texto y el checkbox */
+}
+.formulario-container {
+    border: 1px solid #C589E8;
+    background-color: #4C191B;
+    border-radius: 10px;
+    overflow: hidden;
 }

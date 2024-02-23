@@ -7,58 +7,54 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <div class="formulario-container">
+      <form action="" method="GET">
+          <h1>Formulario de registro - Mi web</h1>
 
-    <form action="" method="GET">
-        <h1>Formulario de registro - Mi web</h1>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" maxlength="50" required>
 
-        <!-- Campos básicos -->
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" maxlength="50" required>
+          <label for="apellidos">Apellidos:</label>
+          <input type="text" id="apellidos" name="apellidos" maxlength="50" required>
 
-        <label for="apellidos">Apellidos:</label>
-        <input type="text" id="apellidos" name="apellidos" maxlength="50" required>
+          <div style="display: flex; align-items: center; margin-bottom: 10px; ">
+              <label for="hombre">Hombre</label>
+              <input type="radio" id="hombre" name="sexo" value="hombre" required>
+          </div>
 
-        <!-- Sexo -->
-        <div style="display: flex; align-items: center; margin-bottom: 10px; ">
-            <label for="hombre">Hombre</label>
-            <input type="radio" id="hombre" name="sexo" value="hombre" required>
-        </div>
+          <div style="display: flex; align-items: center; margin-bottom: 10px; gap: 17px;">
+              <label for="mujer">Mujer</label>
+              <input type="radio" id="mujer" name="sexo" value="mujer" required>
+          </div>
 
-        <div style="display: flex; align-items: center; margin-bottom: 10px; gap: 17px;">
-            <label for="mujer">Mujer</label>
-            <input type="radio" id="mujer" name="sexo" value="mujer" required>
-        </div>
+          <label for="correo">Correo electrónico:</label>
+          <input type="text" id="correo" name="correo" required>
 
-        <label for="correo">Correo electrónico:</label>
-        <input type="text" id="correo" name="correo" required>
+          <div class="checkbox-container">
+              <label>
+                  Deseo recibir información sobre novedades y ofertas
+                  <input type="checkbox" id="novedades" name="novedades" checked>
+              </label>
 
-        <div class="checkbox-container">
-            <label>
-                Deseo recibir información sobre novedades y ofertas
-                <input type="checkbox" id="novedades" name="novedades" checked>
-            </label>
+              <label>
+                  Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+                  <input type="checkbox" id="condiciones" name="condiciones" required>
+              </label>
+          </div>
 
-            <label>
-                Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
-                <input type="checkbox" id="condiciones" name="condiciones" required>
-            </label>
-        </div>
+          <label for="poblacion">Población:</label>
+          <select id="poblacion" name="poblacion">
+              <option value="Bucaramanga">Bucaramanga</option>
+              <option value="Giron">Giron</option>
+              <option value="Floridablanca">Floridablanca</option>
+              <option value="Piedecuesta">Piedecuesta</option>
+          </select>
 
-        <!-- Campos adicionales -->
-        <label for="poblacion">Población:</label>
-        <select id="poblacion" name="poblacion">
-            <option value="Bucaramanga">Bucaramanga</option>
-            <option value="Giron">Giron</option>
-            <option value="Floridablanca">Floridablanca</option>
-            <option value="Piedecuesta">Piedecuesta</option>
-        </select>
+          <label for="descripcion">Descripción:</label>
+          <textarea id="descripcion" name="descripcion" rows="4"></textarea>
 
-        <label for="descripcion">Descripción:</label>
-        <textarea id="descripcion" name="descripcion" rows="4"></textarea>
-
-        <!-- Botón de envío -->
-        <button type="submit">Enviar</button>
-    </form>
+          <button type="submit">Enviar</button>
+      </form>
 
 </body>
 </html>
