@@ -8,11 +8,12 @@ body {
     background-color: #C589E8;
     color: #E3DAFF;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: larger;
+    font-size: larger;
 }
 
 form {
-padding: 20px; ;
+    padding: 20px;
+    ;
 }
 
 label {
@@ -20,7 +21,9 @@ label {
     margin-bottom: 5px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -42,25 +45,27 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-} 
+}
 
 button:hover {
     background-color: #5dbb84;
 }
+
 .checkbox-container {
     display: flex;
-    flex-direction: column; /* Alinea los elementos en columna */
+    flex-direction: column;
     margin-bottom: 10px;
 }
 
 .checkbox-container label {
     display: flex;
-    align-items: center; /* Alinea verticalmente el texto y el checkbox */
+    align-items: center;
 }
 
 .checkbox-container input {
-    margin-left: 5px; /* Ajusta la distancia entre el texto y el checkbox */
+    margin-left: 5px;
 }
+
 .formulario-container {
     border: 1px solid #C589E8;
     background-color: #4C191B;
