@@ -1,0 +1,161 @@
+body {
+    width: 1400px;
+    height: 800px;
+}
+
+.contenedor-fondo {
+    position: relative;
+    width: 1400px;
+    height: 800px;
+}
+
+.fondo {
+    position: relative;
+    width: 1400px;
+    height: 800px;
+}
+
+.fondo2 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 43px;
+    width: 196px;
+    height: 44px;
+}
+
+.tarjeta {
+    position: absolute;
+    width: 884px;
+    height: 497px;
+    margin-left: 127px;
+    margin-top: 122px;
+}
+
+.negro {
+    position: absolute;
+    width: 110px;
+    height: 800px;
+    margin-left: 1290px;
+}
+
+.flechaup {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    margin-left: 1333px;
+    margin-top: 40px;
+}
+
+.flechadown {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    margin-left: 1333px;
+    margin-top: 746px;
+}
+
+.tarjetamsaldo {
+    position: absolute;
+    width: 716px;
+    height: 55px;
+    margin-left: 58px;
+    margin-top: 661px;
+}
+
+.tremil {
+    position: absolute;
+    width: 139px;
+    height: 37px;
+    margin-left: 57px;
+    margin-top: 724px;
+
+}
+
+.verde {
+    position: absolute;
+    width: 160px;
+    height: 114px;
+    margin-left: 1080px;
+    margin-top: 647px;
+}
+
+.logopeque {
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    margin-left: 1095px;
+    margin-top: 676px;
+}
+
+.comprar {
+    position: absolute;
+    width: 111px;
+    height: 36px;
+    margin-left: 1105px;
+    margin-top: 717px;
+}
+
+.cantidad {
+    position: absolute;
+    width: 84px;
+    height: 27px;
+    margin-left: 1303px;
+    margin-top: 149px;
+}
+
+.menum {
+    position: absolute;
+    width: 23px;
+    height: 187px;
+    margin-left: 1330px;
+    margin-top: 307px;
+}
+
+.ctarjeta {
+    position: absolute;
+    width: 230px;
+    height: 41px;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+.versaldo {
+    position: absolute;
+    width: 132px;
+    height: 41px;
+    margin-left: 972px;
+    margin-top: 42px;
+}
+
+.linea {
+    position: absolute;
+    width: 146px;
+    height: 2px;
+    margin-left: 740px;
+    margin-top: 102px;
+}
+
+.lupa {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    margin-left: 1123px;
+    margin-top: 51px;
+}
+
+.carrito {
+    position: absolute;
+    width: 33px;
+    height: 32px;
+    margin-left: 1223px;
+    margin-top: 51px;
+}
