@@ -34,10 +34,10 @@ body {
 
 .tarjeta {
     position: absolute;
-    width: 884px;
-    height: 497px;
-    margin-left: 127px;
-    margin-top: 122px;
+    width: 576px;
+    height: 324px;
+    margin-left: 359px;
+    margin-top: 103px;
 }
 
 .negro {
@@ -104,20 +104,12 @@ body {
     margin-top: 717px;
 }
 
-.cantidad {
+.menu2 {
     position: absolute;
-    width: 84px;
-    height: 27px;
-    margin-left: 1303px;
-    margin-top: 149px;
-}
-
-.menum {
-    position: absolute;
-    width: 23px;
-    height: 187px;
-    margin-left: 1330px;
-    margin-top: 307px;
+    width: 4%;
+    height: auto;
+    margin-left: 1318px;
+    margin-top: 170px;
 }
 
 .ctarjeta {
@@ -140,7 +132,7 @@ body {
     position: absolute;
     width: 146px;
     height: 2px;
-    margin-left: 740px;
+    margin-left: 965px;
     margin-top: 102px;
 }
 
@@ -158,4 +150,10 @@ body {
     height: 32px;
     margin-left: 1223px;
     margin-top: 51px;
+}
+
+.textopag2 {
+    position: absolute;
+    margin-left: 301px;
+    margin-top: 400px;
 }
