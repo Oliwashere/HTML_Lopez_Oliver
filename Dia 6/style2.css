@@ -140,6 +140,18 @@ body {
     margin-left: 972px;
     margin-top: 11px;
 }
+.saldoescogido {
+    position: absolute;
+    font-family: "Open Sans Semibold";
+    font-size: 27px;
+    margin-left: 550px;
+    margin-top: 495px;
+}
+.milki {
+    position: absolute;
+    margin-left: 498px;
+    margin-top: 575px;
+}
 
 .linea {
     position: absolute;
