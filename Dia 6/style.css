@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Open Sans Semibold";
+    src: url(/fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
 body {
     width: 1400px;
     height: 800px;
@@ -65,18 +75,18 @@ body {
 
 .tarjetamsaldo {
     position: absolute;
-    width: 716px;
-    height: 55px;
+    font-family: "Open Sans Semibold";
+    font-size: 40px;
     margin-left: 58px;
-    margin-top: 661px;
+    margin-top: 615px;
 }
 
 .tremil {
     position: absolute;
-    width: 139px;
-    height: 37px;
+    font-family: "Open Sans Semibold";
+    font-size: 27px;
     margin-left: 57px;
-    margin-top: 724px;
+    margin-top: 678px;
 
 }
 
@@ -98,16 +108,17 @@ body {
 
 .comprar {
     position: absolute;
-    width: 111px;
-    height: 36px;
+    font-family: "Open Sans Semibold";
+    font-size: 26px;
     margin-left: 1105px;
-    margin-top: 717px;
+    margin-top: 692px;
 }
 
 .cantidad {
     position: absolute;
-    width: 84px;
-    height: 27px;
+    font-family: "Open Sans Regular";
+    font-size: 20px;
+    color: white;
     margin-left: 1303px;
     margin-top: 149px;
 }
@@ -122,18 +133,19 @@ body {
 
 .ctarjeta {
     position: absolute;
-    width: 230px;
-    height: 41px;
+    font-family: "Open Sans Regular";
+    font-size: 30px;
     margin-left: 700px;
-    margin-top: 40px;
+    margin-top: 11px;
 }
 
 .versaldo {
     position: absolute;
-    width: 132px;
-    height: 41px;
+    font-family: "Open Sans Regular";
+    color: black;
+    font-size: 30px;
     margin-left: 972px;
-    margin-top: 42px;
+    margin-top: 11px;
 }
 
 .linea {
