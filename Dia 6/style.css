@@ -123,12 +123,37 @@ body {
     margin-top: 149px;
 }
 
-.menum {
+.menum1 {
     position: absolute;
+    font-family: "Open Sans Regular";
+    font-size: 20px;
+    color: rgb(163, 162, 162);
     width: 23px;
     height: 187px;
     margin-left: 1330px;
     margin-top: 307px;
+}
+
+.menum2 {
+    position: absolute;
+    font-family: "Open Sans Regular";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    width: 23px;
+    height: 187px;
+    margin-left: 1330px;
+    margin-top: 387px;
+}
+
+.menum3 {
+    position: absolute;
+    font-family: "Open Sans Regular";
+    font-size: 20px;
+    color: rgb(163, 162, 162);
+    width: 23px;
+    height: 187px;
+    margin-left: 1330px;
+    margin-top: 467px;
 }
 
 .ctarjeta {
