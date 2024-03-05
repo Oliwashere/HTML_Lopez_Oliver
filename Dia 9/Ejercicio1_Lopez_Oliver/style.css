@@ -1,7 +1,7 @@
 .barra {
   display: flex;
   flex-wrap: wrap;
-  border:2px solid #000000;
+  border:0.2vi solid #000000;
   justify-content:center;
 }
 .elementos {
