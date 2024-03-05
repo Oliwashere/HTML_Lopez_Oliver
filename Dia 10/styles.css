@@ -1,14 +1,19 @@
+.body, html {
+    background-color: #0f1223;
+}
 .container {
     background-color: #000000;
     display: grid;
-    grid-template-columns: repeat(4, 2fr); 
-    width: 1080px;
-    height: 1323px;
+    grid-template-columns: repeat(1, 480px); 
+    grid-template-rows: repeat(2, 320px); 
+    width: 970px;
+    height: 1205px;
     box-sizing: border-box;
     border-radius: 10px;
     border: 0 solid #e2e8f0;
     padding: 13px;
-    grid-gap: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .item1 {
     grid-column: 1; 
@@ -50,13 +55,88 @@
 .item4 {
     grid-column: 1 / 2;
     grid-row: 3;
-    width: 948px;
+    width: 941px;
     height: 533px;
     border-radius: 10px;
     overflow: hidden;
 }
 .dinogrande {
-    width: 948px;
+    width: 941px;
     height: 533px;
 }
+.container2 {
+    background-color: #000000;
+    display: grid;
+    margin-top: 15px;
+    grid-template-columns: repeat(1, 480px); 
+    grid-template-rows: repeat(2, 320px); 
+    width: 970px;
+    height: 640px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 0 solid #e2e8f0;
+    padding: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item5 {
+    grid-column: 1; 
+    grid-row: 1; 
+    width: 462px;
+    height: 295px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.dino2 {
+    width: 462px;
+    height: 295px;
+}
+.item6 {
+    grid-column: 2; 
+    grid-row: 1 / 2; 
+    width: 462px;
+    height: 615px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.texto2 {
+    width: 462px;
+    height: 615px;
+}
+.item7 {
+    grid-column: 1;
+    grid-row: 2;
+    width: 462px;
+    height: 295px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.collage {
+    width: 462px;
+    height: 295px;
+}
 
+@media (max-width: 768px) {
+    .container {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex: 0 0 calc(100% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .container2 {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .container2 {
+        flex: 0 0 calc(100% - 20px);
+    }
+}
