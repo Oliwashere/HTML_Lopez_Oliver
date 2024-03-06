@@ -18,6 +18,79 @@ html {
 }
 .healthbar {
     position: absolute;
-    margin-left: 600px;
+    margin-left: 650px;
     margin-top: 850px;
+}
+.character {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 670px;
+}
+
+.boss {
+    position: absolute;
+    margin-top: 100px;
+    animation: moverboss 5s linear forwards;
+
+}
+.boss2 {
+    position: absolute;
+    margin-top: 100px;
+    animation: bossquieto 3s linear forwards;
+}
+.laser {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-top: 390px;
+    margin-left: 390px;
+    width: 450px;
+    animation: laser 5s linear forwards;
+
+}
+@keyframes laser {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 100;
+    }
+    100% {
+        opacity:0;
+        
+    }
+}
+
+@keyframes moverboss {
+    0% {
+        margin-left: 1910px;
+    }
+    50% {
+        margin-left: 410px;
+    }
+    95% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+        margin-left: 410px
+    }
+}
+
+@keyframes bossquieto {
+    0% {
+        margin-left: 410px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 0;
+    }
+    100% {
+        margin-left: 410px;
+    }
 }
