@@ -25,19 +25,21 @@ html {
     position: absolute;
     margin-left: 550px;
     margin-top: 670px;
+    animation: charchao 8s linear forwards;
 }
 
 .boss {
     position: absolute;
     margin-top: 100px;
-    animation: moverboss 5s linear forwards;
+    animation: moverboss 4s linear forwards;
 
 }
 .boss2 {
     position: absolute;
     margin-top: 100px;
-    animation: bossquieto 3s linear forwards;
+    animation: bossquieto 7s linear forwards;
 }
+
 .laser {
     position: absolute;
     transform: rotate(90deg);
@@ -47,6 +49,62 @@ html {
     animation: laser 5s linear forwards;
 
 }
+.tumba {
+    position: absolute;
+    width: 50px;
+    animation: tumbalol 8s linear forwards;
+}
+.dead {
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 110px;
+    width: 300px;
+    animation: deadlol 6s linear forwards;
+}
+
+@keyframes deadlol {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    95% {
+        opacity: 25;
+    }
+    97% {
+        opacity: 80;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+
+@keyframes tumbalol {
+    0% {
+        margin-top: 800px;
+        margin-left: 575px;
+        opacity: 0;
+    }
+    90% {
+        margin-top: 800px;
+        margin-left: 575px;
+        opacity: 0;
+    }
+    95% {
+        opacity: 25;
+    }
+    97% {
+        opacity: 30;
+    }
+    100% {
+        margin-top: 750px;
+        margin-left: 575px;
+        opacity: 100;
+    }
+}
+
 @keyframes laser {
     0% {
         opacity: 0;
@@ -84,13 +142,34 @@ html {
         margin-left: 410px;
         opacity: 0;
     }
-    50% {
+    25% {
+        margin-left: 410px;
         opacity: 0;
     }
-    85% {
+    50% {
+        margin-left: 410px;
         opacity: 0;
+    }
+    75% {
+        margin-left: 410px;
+        opacity: 100;
     }
     100% {
+        margin-left: -410px;
+    }
+}
+
+@keyframes boss2lol {
+    0% {
         margin-left: 410px;
+    }
+    100% {
+        margin-left: -800px;
+    }
+}
+
+@keyframes charchao {
+    100% {
+        opacity: 0;
     }
 }
