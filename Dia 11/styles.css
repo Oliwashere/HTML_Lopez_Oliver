@@ -57,9 +57,9 @@ html {
 .dead {
     position: absolute;
     margin-left: 1200px;
-    margin-top: 110px;
+    margin-top: 95px;
     width: 300px;
-    animation: deadlol 6s linear forwards;
+    animation: deadlol 5s linear forwards;
 }
 
 @keyframes deadlol {
@@ -83,7 +83,7 @@ html {
 
 @keyframes tumbalol {
     0% {
-        margin-top: 800px;
+        margin-top: 80px;
         margin-left: 575px;
         opacity: 0;
     }
@@ -99,7 +99,7 @@ html {
         opacity: 30;
     }
     100% {
-        margin-top: 750px;
+        margin-top: 700px;
         margin-left: 575px;
         opacity: 100;
     }
