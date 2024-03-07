@@ -25,7 +25,7 @@ html {
     position: absolute;
     margin-left: 550px;
     margin-top: 670px;
-    animation: charchao 8s linear forwards;
+    animation: charchao 7s linear forwards;
 }
 
 .boss {
@@ -52,7 +52,7 @@ html {
 .tumba {
     position: absolute;
     width: 50px;
-    animation: tumbalol 8s linear forwards;
+    animation: tumbalol 6s linear forwards;
 }
 .dead {
     position: absolute;
